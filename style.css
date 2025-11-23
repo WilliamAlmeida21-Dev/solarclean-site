@@ -379,12 +379,14 @@ table tbody tr:hover {
         flex-direction: column;
         align-items: center;
     }
-    .botao-whatsapp {
+  
+} 
+.botao-whatsapp {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 9999; /* Para ficar em cima de tudo */
-    background-color: #25D366; /* Cor oficial do Zap */
+    z-index: 9999;
+    background-color: #25D366;
     color: white;
     padding: 12px 20px;
     border-radius: 30px;
@@ -393,7 +395,7 @@ table tbody tr:hover {
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     display: flex;
     align-items: center;
-    gap: 10px; /* Espaço entre ícone e texto */
+    gap: 10px;
     transition: transform 0.3s, background-color 0.3s;
 }
 
@@ -406,7 +408,3 @@ table tbody tr:hover {
     transform: scale(1.05);
     background-color: #128C7E;
 }
-}
-
-
-
